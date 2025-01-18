@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/my-map-app/static/css/main.4d12a94a.css",
+    "main.js": "/my-map-app/static/js/main.b94587fc.js",
+    "static/js/879.f1cd7cd9.chunk.js": "/my-map-app/static/js/879.f1cd7cd9.chunk.js",
+    "static/js/488.7221426e.chunk.js": "/my-map-app/static/js/488.7221426e.chunk.js",
+    "index.html": "/my-map-app/index.html",
+    "main.4d12a94a.css.map": "/my-map-app/static/css/main.4d12a94a.css.map",
+    "main.b94587fc.js.map": "/my-map-app/static/js/main.b94587fc.js.map",
+    "879.f1cd7cd9.chunk.js.map": "/my-map-app/static/js/879.f1cd7cd9.chunk.js.map",
+    "488.7221426e.chunk.js.map": "/my-map-app/static/js/488.7221426e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d12a94a.css",
+    "static/js/main.b94587fc.js"
+  ]
+}
