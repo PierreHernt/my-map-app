@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Accessibilité des Communes Françaises aux Offres de Soins 🌍
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Voir l'application en ligne ici ! ](https://pierrehernt.github.io/my-map-app/)
 
-## Available Scripts
+## 🔓 Description
 
-In the project directory, you can run:
+Ce projet est une application interactive qui permet d'analyser l'accéssibilité des communes françaises aux offres de soins et surtout aux médecins généralistes avec des données de 2022. Les données sont accessibles via ce lien :*
+[data](https://drive.google.com/drive/folders/16L3jNkOOov5VGT9QaWjhPbS9Qu2jYG72?usp=drive_link) 
+le prétraitement a été réalise avec le fichier python 'traitement data'. 
 
-### `npm start`
+L'application utilise deux scores principaux pour évaluer la situation :
+1. **Score APL (Accessibilité Potentielle Localisée)** : calculé par la DREES, ce score mesure l'accessibilité des soins en fonction de la densité de médecins généralistes et de la population.
+2. **Score Désert Médical (DM)** : basé sur des critères tels que le nombre de médecins, la distance aux pharmacies, et la distance aux hôpitaux.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## 🚀 Déploiement
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+L'application est hébergée grâce à **GitHub Pages**.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔂 Installation locale
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Étapes pour exécuter le projet en local :
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clonez le dépôt :
+   ```bash
+   git clone https://github.com/PierreHernt/my-map-app.git
+   cd my-map-app
+   ```
 
-### `npm run eject`
+2. Installez les dépendances :
+   ```bash
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Lancez l'application :
+   ```bash
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Ouvrez votre navigateur et accédez à :
+   ```
+   http://localhost:3000
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 📊 Sources des données
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Les données utilisées dans l'application proviennent des sources suivantes :
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Score APL (Accessibilité Potentielle Localisée)** : [Données DREES](https://data.drees.solidarites-sante.gouv.fr/explore/dataset/530_l-accessibilite-potentielle-localisee-apl/information/).
+- **Autres données** : [Données INSEE](https://www.insee.fr/fr/accueil)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📞 Contact
 
-### Analyzing the Bundle Size
+- **Auteur** : Pierre Hernot  
+- **Lien vers le projet** : [https://github.com/PierreHernt/my-map-app](https://github.com/PierreHernt/my-map-app)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
