@@ -24,12 +24,6 @@ L'application est hébergée sur **GitHub Pages**.
 
 ---
 
-## 🚀 Déploiement
-
-L'application est hébergée grâce à **GitHub Pages**.
-
----
-
 ## 🔂 Installation locale
 
 ### Étapes pour exécuter le projet en local :
