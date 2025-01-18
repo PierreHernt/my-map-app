@@ -1,0 +1,6 @@
+body {
+  background-color: #cdd1d0; /* Par exemple, un vert très clair */
+  margin: 0; /* Optionnel : remet à zéro la marge du body */
+  padding: 0; /* Optionnel : remet à zéro le padding du body */
+  font-family: Arial, sans-serif; /* Optionnel : choisissez une police */
+}
